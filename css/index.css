@@ -1,0 +1,53 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-box {
+    width: 150px;
+}
+
+.space-box {
+    width: 9%;
+}
+
+.author-desc-box {
+    text-align: right;
+}
+
+.box {
+    width: 100%;
+}
+
+img {
+    width: 320px;
+}
+
+
+@media screen and (min-width: 660px) {
+    .first, .second {
+        width: 50%;
+    }
+    .space-box {
+        width: 50%;
+    }
+    .container {
+        width: 700px;
+        margin-right:auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .first, .second, .third {
+        width: 33.333333%;
+    }
+    .space-box {
+        width: 65%;
+    }
+    .container {
+        width: 1050px;
+        
+    }
+}
